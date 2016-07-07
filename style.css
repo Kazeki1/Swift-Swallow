@@ -1,0 +1,14 @@
+/* 160624_0600_SwiftSwallow2_stylecss*/
+body{width: 100%; height:auto;}
+canvas {display:block;position:absolute;margin:auto;margin-top:50px;top:0;bottom:0;left:0;right:0;border-radius:5px;}
+#container{width: 95%; height:750px;margin:2%; background-image:url(images/field.jpg); position:relative;overflow:hidden;}
+#daytime{position:absolute;background-color:gold;text-align:center;top:-40px;width:200px;left:42%;font-family:"Lucida Console, Lucida Sans Unicode", cursive;font-size:medium;}
+#scoreboard{position:absolute;top:-10px;left:40%;height:50px;width:275px;border:solid 1px;background-color:powderblue}
+#strHS{position:absolute;top:0;left:5px;height:20px;width:100px}
+#boxHS{position:absolute;border:solid 1px;top:20px;left:25px;height:20px;width:50px;text-align:center;background-color:ghostwhite}
+#strS{position:absolute;top:0;left:125px;height:20px;width:50px}
+#boxS{position:absolute;border:solid 1px;top:20px;left:125px;height:20px;width:50px;text-align:center;background-color:ghostwhite}
+#strP{position:absolute;top:0;left:200px;height:20px;width:50px}
+#boxP{position:absolute;border:solid 1px;top:20px;left:200px;height:20px;width:50px;text-align:center;background-color:ghostwhite}
+#player{position:absolute;top:55%;left:40%; z-index:1;visibility:hidden}
+.boom{position:absolute;top:55%;left:40%;width: 30px;height: 75px;background-image: url('images/boom.png');-webkit-animation: animBoom 300ms steps(17) infinite;animation: animBoom 300ms steps(17) infinite;}

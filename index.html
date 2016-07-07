@@ -1,0 +1,39 @@
+<!-- 160624_0600_SwiftSwallow2_indexhtml -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2 Swift Swallow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="daytime.js"></script>
+    <script src="create.js"></script>
+    <script src="action.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="container" onload="initHighScore(); doDayTime(); main()">
+<!-- <audio controls id="boomsound">; -->
+ <div id="daytime" style="height: 0;">
+    <p id="dayoftheweek"></p>
+    <div id="timenow"></div>
+</div>
+<!-- GO CLOUD
+<div id="myCloud1"><a href="javascript: moveCloud1(), moveCloud2(), moveCloud3(), moveCloud4() "><img src="images/cloud.png" style="border:solid;height:50px;width:50px"></a></div> -->
+<img id="i1" src=images/cloud.png style="position:absolute;left:1400px;top:40px;height:100px;width:100px;z-index: 1;">
+<img id="i2" src=images/cloud.png style="position:absolute;left:1400px;top:60px;height:80px;width:80px;z-index: 1;">
+<img id="i3" src=images/cloud.png style="position:absolute;left:1400px;top:80px;height:60px;width:60px;z-index: 1;">
+<img id="i4" src=images/cloud.png style="position:absolute;left:1400px;top:100px;height:40px;width:40px;z-index: 1;">
+<div id="scoreboard">
+    <div id="strHS" >HIGH SCORE</div>
+    <div id="boxHS"></div>
+    <div id="strS">SCORE</div>
+    <div id="boxS"></div>
+    <div id="strP">POINTS</div>
+    <div id="boxP"></div>
+</div>
+ <div id="player" class="boom animated"></div>
+</body>
+</html>
